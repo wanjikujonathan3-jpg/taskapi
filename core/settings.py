@@ -155,9 +155,10 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     
 ]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'taskapi-1-5rf9.onrender.com']
+
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "http://127.0.0.1:5173",
     "https://task-api-frontend-6bzmtyk6n-wanjikujonathan3-3808s-projects.vercel.app",
 ]
 
